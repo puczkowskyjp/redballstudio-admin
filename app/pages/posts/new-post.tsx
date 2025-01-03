@@ -1,12 +1,10 @@
-import React from 'react'
-import { Form } from 'react-router';
+import NewPostForm from '~/components/new-post-form';
+
 
 export default function NewPost() {
   return (
     <div className="flex justify-center items-center h-screen">
-      <Form>
-        <div>Form</div>
-      </Form>
+      <NewPostForm />
     </div>
   );
 }
